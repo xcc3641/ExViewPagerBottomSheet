@@ -1,0 +1,3 @@
+rootProject.name='ExViewPagerBottomSheet'
+include ':app'
+include ':exvpbs'
