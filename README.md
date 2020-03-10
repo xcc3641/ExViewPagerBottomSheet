@@ -25,7 +25,7 @@ Add the dependency
 
 ```
 dependencies {
-        implementation 'com.github.xcc3641:ExViewPagerBottomSheet:0.1'
+        implementation 'com.github.xcc3641:ExViewPagerBottomSheet:1.0'
 }
 ```
 
