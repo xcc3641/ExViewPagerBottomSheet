@@ -3,8 +3,6 @@ package com.imxie.exvpbs
 import android.view.View
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.viewpager2.widget.ViewPager2
-import kotlin.jvm.internal.Reflection
-
 
 object BottomSheetVP2Helper {
 
@@ -17,7 +15,6 @@ object BottomSheetVP2Helper {
                 )
             )
         }
-
     }
 
     private class BottomSheetViewPagerListener(
