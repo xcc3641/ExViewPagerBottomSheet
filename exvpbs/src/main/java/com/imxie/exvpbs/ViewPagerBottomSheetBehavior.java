@@ -618,7 +618,7 @@ public class ViewPagerBottomSheetBehavior<V extends View> extends CoordinatorLay
 
     @VisibleForTesting
     View findScrollingChild(View view) {
-        if (ViewCompat.isNestedScrollingEnabled(view)) {
+        if (ViewCompat.isNestedScrollingEnabled(view) && view.isShown()) {
             return view;
         }
 
